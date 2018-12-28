@@ -18,3 +18,8 @@ Failed to establish a new connection: [Errno 10060] ',))
 ### 各种百度，答案千奇百怪。有的说是keep_alive的错误，需要设置为False，还是无果。
 ### 我就想是不是公司的网络的限制，因为连自己服务器都需要代理，让我爬虫是不可能的。
 ### 在自己服务器debug，发现没有任何报错。
+### 执行程序
+``` python
+python bilibili.py
+```
+#### 在你执行的程序目录下会创建文件夹，如果你觉得没必要根据uid进行创建目录，去除username并将函数改成传递一个参即可。
